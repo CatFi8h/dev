@@ -1,0 +1,17 @@
+.cell {
+    height: 5px;
+    width: 5px;
+    border: 1px solid  white;
+}
+
+.white {
+    background-color: white;
+}
+
+table.color-shift td{
+    background-color: white;
+}
+
+table.color-shift td.white{
+    background-color: black;
+}

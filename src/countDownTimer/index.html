@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>NewYear Countdown</title>
+    <link rel="stylesheet" type="text/css" href="assets/styleSheet/style.css">
+</head>
+<body>
+<header class="headclass">
+    New Year Count Down
+</header>
+
+<!--<div class="flex-container">-->
+<div id="clockdiv">
+    <div class="flex-container__days">
+        <span class="days"></span>days:
+    </div>
+    <div class="flex-container__hours">
+        <span class="hours"></span>hours:
+    </div>
+    <div class="flex-container__minutes">
+        <span class="minutes"></span>minutes:
+    </div>
+    <div class="flex-container__seconds">
+        <span class="seconds"></span>seconds
+    </div>
+    <!--<span class="millis"></span>-->
+</div>
+<!--</div>-->
+<br/>
+<!--<button id="button">click me</button>-->
+<!--<a href="http://google.com" id='link'>click me too</a>-->
+<div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="true" data-auto-logout-link="true"></div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=313802841967861";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<ul class="navigation_bar">
+    <li class="navigation_bar__li"><a href="index.html" class="navigation_bar__block">Home</a></li>
+    <li class="navigation_bar__li"><a href="about.html" class="navigation_bar__block">About</a></li>
+    <li class="navigation_bar__li"><a href="wishlist.html" class="navigation_bar__block">Wish List</a></li>
+    <li class="navigation_bar__li"><a href="callendar.html" class="navigation_bar__block">Callendar</a></li>
+    <li class="navigation_bar__li"><a href="contactUs.html" class="navigation_bar__block">Contacts</a></li>
+    <li class="navigation_bar__li"><a href="login.html" class="navigation_bar__block">Login</a></li>
+</ul>
+
+<script src="assets/functions.js" type="text/javascript"></script>
+</body>
+</html>

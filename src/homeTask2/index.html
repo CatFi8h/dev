@@ -1,27 +1,10 @@
 <html>
 <head>
     <title>Grocery</title>
+    <link rel="stylesheet" href="assets/styleSheet/main.css">
     <meta charset="UTF-8">
-    <style>
-        .layer1 {
-            background-color: #24ff36;
-            margin-top: 5%;
-        }
-
-        /*.layer2 {*/
-        /*margin-left: 10%;*/
-        /*margin-right: 10%;*/
-        /*margin-bottom: 10%;*/
-        /*margin-top: 2%;*/
-        /*}*/
-
-    </style>
 </head>
-<body style="text-align: center;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-bottom: 10%;
-            margin-top: 2%;">
+<body>
 
 <div class="layer1">
     <header>
@@ -34,11 +17,36 @@
         <a href="#contacts">contact us</a>
     </nav>
 </div>
+
+<div class="container">
+    <!--<span class="container__item">&times</span>-->
+    <button class="container__button">&times</button>
+</div>
+
+<div class="flex-container">
+    <div class="flex-container__item"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
+        consectetur corporis cum dolorem
+        doloribus ex explicabo incidunt ipsum itaque labore quaerat quisquam quo ratione, sequi soluta, temporibus vel
+        vitae?
+    </div>
+    <div class="flex-container__item flex-container__item_expanded">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Ad aliquid
+        architecto commodi distinctio iure laborum
+        sapiente tem. Culpa deleniti eaque eos hic ipsam nesciunt nobis, officiis quam ratione sint vel!
+    </div>
+    <div class="flex-container__item flex-container__item_sqare">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Consectetur ea facilis id quis repellendus? Alias at
+        harum quas quidem. Distinctio dolores impedit, laboriosam laudantium libero nisi nulla rerum tempore temporibus.
+    </div>
+</div>
+
 <div class="layer2">
     <p>
         <img src="http://whistlergrocery.com/media/com_fpss/src/20_c889234799e865bbe90cee71f6cd2e53_s.jpg">
     </p>
     <p>
+
+
     <h2><a name="about">About us</a></h2>
     The team at this full service supermarket in the heart of Whistler Village is committed to excellence in all that it
     does; seeking out the freshest ingredients locally as well as globally, providing a product mix to satisfy the many
@@ -104,6 +112,11 @@
     </ul>
     </p>
 
+    <div class="make-div-inline"> Div text</div>
+
+    <div class="make-inline-block"> Inline-block text</div>
+    <div class="make-inline-block2"> Inline-block-2 text</div>
+
     <p>
     <h2><a name="register">Registration form</a></h2>
 
@@ -147,9 +160,58 @@
     <br>
     </p>
 </div>
-<footer style=" text-align: center; background:#c9ff6a">Copyright <a href="mailto:a@i.ua">Igor Yurchenko</a> &copy
+<footer class="footer">Copyright <a href="mailto:a@i.ua">Igor Yurchenko</a> &copy
 </footer>
 </body>
+
+<script>
+    var str = 'string bla bla bla';
+    var number = 4;
+    var booleanVal = true;
+    var courses = {
+        type: 'frontend',
+        numberOfPeople: 3,
+        couches: ['Max', 'Eugen'],
+        topics: ['git', 'html', 'css', 'js']
+    };
+    console.clear();
+
+    console.log(courses.couches);
+
+    var isAgeValid = validateAge(15);
+    console.log(isAgeValid);
+
+//    sayHello(courses.couches[0]);
+
+    sayHelloToCouches(courses);
+
+    function sayHello(who) {
+        console.log('hello ' + who);
+    }
+
+    function validateAge(age) {
+        if (age >    18) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function sayHelloToCouches( a ) {
+        for (var i = 0; i < a.couches.length; i++) {
+            console.log('Hello ' + a.couches[i]);
+        }
+    }
+
+    function add(a) {
+        return function (b) {
+            return a + b;
+        };
+    }
+
+    var addTen = add(10);
+    console.log(addTen(5));
+</script>
 </html>
 
 

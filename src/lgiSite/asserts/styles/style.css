@@ -1,0 +1,99 @@
+body {
+    background-color: #c9ff6a;
+    height: 100%;
+    font-family: Monospace;
+    color: darkred;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay_content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 48px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.paralax {
+    background-image: url(image.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #f1f1f1;
+    padding: 18px;
+    font-size: 26px;
+    letter-spacing: 10px;
+}
+
+.caption {
+    text-align: center;
+}
+
+@media screen and (max-height: 450px){
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

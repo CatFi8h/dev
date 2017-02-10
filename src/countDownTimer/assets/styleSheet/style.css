@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+
+    font-family: Monospace;
+    color: darkred;
+    margin: 0;
+    margin-top: 100px;
+}
+
+#clockdiv {
+    /*border: 1px solid green;*/
+    /*border-style: solid;*/
+    /*border-bottom: medium;*/
+    /*display: inline-block;*/
+    font-family: TickingBomb;
+text-align: center;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    /*width: 100%;*/
+    /*background-color: gold;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.headclass{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3e333f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.navigation_bar__li {
+    float: left;
+    border-right: 1px solid white;
+}
+.navigation_bar__li:last-child {
+    border-right: none;
+    float: right;
+}
+
+.navigation_bar__block {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+.navigation_bar__block:hover {
+    background-color: #18a725;
+}
+
+.flex-container__days {
+    height: auto;
+    width: 200px;
+    order:1;
+    /*margin-right: 20px;*/
+    /*padding: 10px;*/
+}
+
+.flex-container__hours {
+    height: auto;
+    width: 200px;
+    order: 2;
+}
+
+.flex-container__minutes {
+    height: auto;
+    width: 200px;
+    order: 3;
+}
+
+.flex-container__seconds {
+    height: auto;
+    width: 200px;
+    order: 4;
+
+}
+
+@font-face {
+    font-family: TickingBomb;
+    src: url(../fonts/ticking-timebomb-bb/TickingTimebombBB.ttf);
+}
+
+#clockdiv span {
+    /*display: inline-block;*/
+    /*margin: 10 20px;*/
+    font-size: 140px;
+    /*border: 10px solid black;*/
+}
