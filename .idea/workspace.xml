@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c323f12-14e9-425c-88e5-eac91bc0e6d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lgiSite/asserts/styles/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/countDownTimer/assets/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/countDownTimer/assets/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/countDownTimer/assets/styleSheet/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/countDownTimer/assets/styleSheet/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/countDownTimer/assets/wishlist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/countDownTimer/callendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/homeTask2/assets/styleSheet/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lgiSite/asserts/styles/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lgiSite/ourTeam.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lgiSite/ourWorks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/PhotoDownloader/VkConnector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SmallChatServer/ChatServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/homeTask2/index.html" afterPath="$PROJECT_DIR$/src/homeTask2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lgiSite/asserts/styles/image-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lgiSite/asserts/styles/image.jpg" afterPath="$PROJECT_DIR$/src/lgiSite/asserts/styles/image-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lgiSite/asserts/functions.js" afterPath="$PROJECT_DIR$/src/lgiSite/asserts/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lgiSite/asserts/styles/style.css" afterPath="$PROJECT_DIR$/src/lgiSite/asserts/styles/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lgiSite/index.html" afterPath="$PROJECT_DIR$/src/lgiSite/index.html" />
     </list>
     <ignored path="TestingFX.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,9 +34,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lgiSite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-              <folding />
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +46,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lgiSite/asserts/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.54330707">
+              <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -63,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/lgiSite/asserts/functions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -517,6 +511,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lgiSite/asserts/styles" />
       <recent name="$PROJECT_DIR$/src/countDownTimer/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -986,12 +981,12 @@
       <workItem from="1480404369720" duration="3892000" />
       <workItem from="1481362592802" duration="564000" />
       <workItem from="1484385546799" duration="1637000" />
-      <workItem from="1485207137960" duration="7212000" />
+      <workItem from="1485207137960" duration="10404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73816000" />
+    <option name="totallyTimeSpent" value="77008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="805" extended-state="6" />
@@ -1006,8 +1001,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1018,7 +1014,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1417,14 +1412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lgiSite/asserts/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/countDownTimer/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52904236">
@@ -1433,23 +1420,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lgiSite/asserts/styles/image.jpg">
+    <entry file="file://$PROJECT_DIR$/src/lgiSite/asserts/styles/image-1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lgiSite/asserts/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lgiSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lgiSite/asserts/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.54330707">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding />
         </state>
       </provider>
