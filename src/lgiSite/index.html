@@ -11,9 +11,10 @@
 
         <div class="overlay_content">
             <a href="index.html">home</a>
-            <a href="about.html">about</a>
-            <a href="ourTeam.html">our team</a>
-            <a href="ourWorks.html">portfolio</a>
+            <a href="#about">about</a>
+            <a href="#live">live</a>
+            <a href="#team">our team</a>
+            <a href="#contacts">contact us</a>
         </div>
 
     </div>
@@ -27,21 +28,51 @@
 <div class="bgimg-1">
 
     <div class="caption">
-        <span class="border">SCROLL DOWN</span>
+        <span class="border">L G I</span>
     </div>
 
+    <section id="arrow-id" class="arrow-down">
+        <a href="#about"><span></span></a>
+    </section>
 </div>
-
+<a name = "about"></a>
 <div class="about">
+    <div class="header_block_name">about our team</div>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eum maxime officiis voluptatibus! Aliquam aliquid,
     animi cumque dignissimos dolor exercitationem illo nostrum placeat possimus quaerat quidem recusandae, tenetur velit
     veniam?
+    <br><br><br><br><br><br><br><br><br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto atque aut deleniti esse et eveniet
+    iste iusto maiores, officia quibusdam quidem quisquam ratione sed veniam? Odit quaerat quos temporibus.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam est illum nemo nihil omnis praesentium provident.
+    Distinctio esse in numquam quos! A amet asperiores earum enim molestiae quam sit veritatis.
 
+    <div class="lightbox-row">
+        <div class="lightbox-column">
+            <img src="asserts/styles/image-1.jpg" onclick="openModal();currentSlide(1)" class = "hover-shadow">
+        </div>
+        <div class ="lightbox-column">
+            <img src="asserts/styles/image-1.jpg" onclick="openModal();currentSlide(2)" class = "hover-shadow">
+        </div>
+        <div class ="lightbox-column">
+            <img src="asserts/styles/image-1.jpg" onclick="openModal();currentSlide(3)" class = "hover-shadow">
+        </div>
+    </div>
+    <div id = "vModal" class = "modal-video">
+        <span class="close cursos" onclick="closeModal()">&times</span>
+        <div class = "modal_video_content">
+            <div></div>
+        </div>
+    </div>
 </div>
 
 <div class="bgimg-2">
 
 </div>
+
+
+<iframe src="https://player.vimeo.com/video/199901829" width="1080" height="720" frameborder="0" webkitallowfullscreen
+        mozallowfullscreen allowfullscreen></iframe>
 
 
 <div align="center">Text</div>
