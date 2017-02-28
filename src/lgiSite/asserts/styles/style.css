@@ -67,6 +67,81 @@ body {
     display: none;
 }
 
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.img.demo-list{
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+#gallery img {
+    /* CSS Hack will make it width 100% and height 100% */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* Maintain aspect ratio */
+    max-height: 25%;
+    max-width: 25%;
+}
+
 .overlay {
     height: 0;
     width: 100%;
@@ -110,20 +185,11 @@ body {
     font-size: 60px;
 }
 
-.bgimg-1 {
-    background-image: url(image-1.jpg);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .modal{
     float: right;
     width: 100px;
-    /*overflow: auto;*/
-    /*text-align: right;*/
+/*overflow: auto;*/
+/*text-align: right;*/
 
 }
 
@@ -131,9 +197,36 @@ body {
     position: fixed;
     padding: 15px;
 }
-
 .header_block_name{
     padding: 30px 0px 20px;
+}
+
+.lgi_header_logo{
+    padding: 10px 30%
+}
+
+.logo {
+    height: 600px;
+    width: 600px;
+}
+
+
+.bgimg-1 {
+    background-image: url(lgi_live.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-2 {
+    background-image: url(background-2.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about {
@@ -143,15 +236,6 @@ body {
     padding: 0px 90px 50px;
     color: white;
     font-size: 24px;
-}
-
-.bgimg-2 {
-    background-image: url(image-2.png);
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .caption span.border {
